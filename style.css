@@ -78,7 +78,7 @@ body {
 #seconds {
    position: absolute;
    height: 160px;
-   width: 2px;
+   width: 2.5px;
    left: 0; right: 0; bottom: 160px; top: 0px;
    margin: auto;
    background: #000;
@@ -89,7 +89,7 @@ body {
 #minutes {
   position: absolute;
   height: 200px;
-  width: 2px;
+  width: 4px;
   left: 0; right: 0; bottom: 200px; top: 0px;
   margin: auto;
   background: #000;
