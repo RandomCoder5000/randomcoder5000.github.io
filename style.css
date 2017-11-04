@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #293730;
+  background-color: #000000;
 }
 
 .clock {
@@ -13,7 +13,7 @@ body {
   width: 500px;
   background-color: #18a1dc;
   border-radius: 100%;
-  border: 3.5px solid #938b8b;
+  border: 3.5px solid #18a1dc;
   margin: auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
