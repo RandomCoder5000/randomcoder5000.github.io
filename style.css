@@ -11,9 +11,9 @@ body {
 .clock {
   height: 500px;
   width: 500px;
-  background-color: #18a1dc;
+  background-color: #1287ba;
   border-radius: 100%;
-  border: 3.5px solid #18a1dc;
+  border: 3.5px solid #1287ba;
   margin: auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
