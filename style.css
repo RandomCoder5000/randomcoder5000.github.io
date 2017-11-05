@@ -22,7 +22,7 @@ body {
 .twelve {
   position: absolute;
   width: 3px;
-  height: 20px;
+  height: 25px;
   background: #111111;
   left: 0;
   top: 0;
@@ -32,7 +32,7 @@ body {
 
 .three {
   position: absolute;
-  width: 17.5px;
+  width: 20px;
   height: 3px;
   background: #111111;
   top: 0;
@@ -44,7 +44,7 @@ body {
 .six {
   position: absolute;
   width: 3px;
-  height: 20px;
+  height: 25px;
   background: #111111;
   left: 0;
   bottom: 0;
@@ -54,7 +54,7 @@ body {
 
 .nine {
   position: absolute;
-  width: 17.5px;
+  width: 20px;
   height: 3px;
   background: #111111;
   top: 0;
@@ -83,7 +83,7 @@ body {
    margin: auto;
    background: #000;
    -webkit-transform-origin: bottom;
-   background: #FF4136;
+   background: #ff0c00;
 }
 
 #minutes {
