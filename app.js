@@ -17,7 +17,8 @@ document.write(today);
 document.getElementById('heading').innerHTML = localStorage['title'] || 'Homework for Today - ';
 document.getElementById('content').innerHTML = localStorage['text'] || 'English - <br> Math - <br> Physics - <br> Latin - <br> Religion - <br> World Civ - <br> Music - <br> Health - <br> Guidance - <br> Homeroom - ';
 
- setInterval(function() {
-      localStorage['title'] = document.getElementById('heading').innerHTML;
-      localStorage['text'] = document.getElementById('content').innerHTML;
- }, 1000);
+
+// setInterval(function() { 
+//      localStorage['title'] = document.getElementById('heading').innerHTML;
+  //    localStorage['text'] = document.getElementById('content').innerHTML;
+// }, 1000);
