@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+<link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
 
 html {
-  font-family: 'Oswald';
+  font-family: 'Raleway', sans-serif;
 }
 
 body {
   color: #333;
-  font-weight: 200;
+  font-weight: 100;
   max-width: 50em;
   margin: 0 auto;
   background: #1ac9cc;
