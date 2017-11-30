@@ -3,7 +3,7 @@
 var today = 'date';
 
 document.getElementById('heading').innerHTML = localStorage['title'] || 'Homework for Today - '+ today;
-document.getElementById('content').innerHTML = localStorage['text'] || 'English - <br> Math - <br>;
+document.getElementById('content').innerHTML = localStorage['text'] || 'English - <br> Math - <br>';
 
  setInterval(function() {
       localStorage['title'] = document.getElementById('heading').innerHTML;
