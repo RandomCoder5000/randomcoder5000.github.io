@@ -1,7 +1,9 @@
+
+
 var today = 'date';
 
 document.getElementById('heading').innerHTML = localStorage['title'] || 'Homework for Today - '+ today;
-document.getElementById('content').innerHTML = localStorage['text'] || 'This text is automatically saved every second :) ';
+document.getElementById('content').innerHTML = localStorage['text'] || 'English - <br> Math - <br>;
 
  setInterval(function() {
       localStorage['title'] = document.getElementById('heading').innerHTML;
