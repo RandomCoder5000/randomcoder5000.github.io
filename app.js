@@ -14,7 +14,7 @@ if(mm<10) {
 today = mm + '/' + dd + '/' + yyyy
 document.write(today);
 
-document.getElementById('heading').innerHTML = localStorage['title'] || 'Homework for Today - '+ today ' ';
+document.getElementById('heading').innerHTML = localStorage['title'] || 'Homework for Today - '+ today;
 document.getElementById('content').innerHTML = localStorage['text'] || 'English - <br> Math - <br> Physics - <br> Latin - <br> Religion - <br> World Civ - <br> Music - <br> Health - <br> Guidance - <br> Homeroom - ';
 
  setInterval(function() {
