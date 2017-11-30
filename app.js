@@ -1,14 +1,8 @@
-function moveHands() {
-    with(new Date()) {
-        h = 30 * (getHours() % 12 + getMinutes() / 60); // 30 degrees per hour
-        m = 6 * getMinutes(); // 6 degrees per minute
-        s = 6 * getSeconds(); // 6 degrees per second
-        document.getElementById('seconds').style.cssText = "-webkit-transform:rotate(" + s + "deg);";
-        document.getElementById('minutes').style.cssText = "-webkit-transform:rotate(" + m + "deg);";
-        document.getElementById('hours').style.cssText = "-webkit-transform:rotate(" + h + "deg);";
 
-        setTimeout(moveHands, 1000);
-    }
-}
+document.getElementById('heading').innerHTML = localStorage['title'] || 'Just Write';
+document.getElementById('content').innerHTML = localStorage['text'] || 'This text is automatically saved every second :) ';
 
-window.onload = moveHands;
+ setInterval(function() {
+      localStorage['title'] = document.getElementById('heading').innerHTML;
+      localStorage['text'] = document.getElementById('content').innerHTML;
+ }, 1000);
