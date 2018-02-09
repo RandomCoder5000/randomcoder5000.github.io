@@ -6,7 +6,7 @@ function Game(options) {
   this.food = undefined;
   
   for (var row = 0; row < this.rows; row++) {
-    for (var col = 0; col < this. columns; col++) {
+    for (var col = 0; col < this.columns; col++) {
       $('.container').append($('<div>')
         .addClass('cell')
         .attr('data-row', row)
@@ -29,7 +29,7 @@ Game.prototype.start = function() {
 Game.prototype.stop = function() {
   if (this.intervalId) {
     clearInterval(this.intervalId);
-    this.intervalId = underfined;
+    this.intervalId = undefined;
   }
 };
 
@@ -62,8 +62,8 @@ Game.prototype._assignControlsToKeys = function() {
   
 Game.prototype._drawSnake = function {
   this.snake.body.forEach(function(position, index) {
-    var selevtor = '[data-row=' + position.row + ']' +
-                   '[data-col=' + position.olumn + ']';
+    var selector = '[data-row=' + position.row + ']' +
+                   '[data-col=' + position.column + ']';
                    
     $(selector).addClass('snake');
   });
