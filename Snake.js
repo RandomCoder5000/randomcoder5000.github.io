@@ -1,5 +1,5 @@
 fuction Snake() {
-  this.diretion = 'left';
+  this.direction = 'left';
   
   this.body = [
     { row: 16, column: 20 },
