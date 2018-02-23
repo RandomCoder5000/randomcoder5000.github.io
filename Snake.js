@@ -1,4 +1,4 @@
-fuction Snake() {
+function Snake() {
   this.direction = 'left';
   
   this.body = [
