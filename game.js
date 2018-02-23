@@ -45,7 +45,7 @@ Game.prototype._assignControlsToKeys = function() {
         break;
       case 37: // arrow left
         this.snake.goLeft();
-        break:
+        break;
       case 39: // arrow right
         this.snake.goRight();
         break;
