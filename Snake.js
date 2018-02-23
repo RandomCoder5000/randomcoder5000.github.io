@@ -17,7 +17,7 @@ Snake.prototype.move = function(maxRows, maxColumns) {
     case 'left':
       this.body.unshift({
         row: head.row,
-        column: (head.column - 1 + maxColumns) % max Columns
+        column: (head.column - 1 + maxColumns) % maxColumns
       });
       break;
       
