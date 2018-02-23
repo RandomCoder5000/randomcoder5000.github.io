@@ -55,7 +55,7 @@ Game.prototype._assignControlsToKeys = function() {
         } else {
           this. start();
         }
-        break:
+        break;
     }
   }.bind(this));
 };
