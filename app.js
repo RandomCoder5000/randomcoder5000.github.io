@@ -15,7 +15,7 @@ today = mm + '/' + dd + '/' + yyyy
 document.write(today);
 
 document.getElementById('heading').innerHTML = localStorage['title'] || 'Homework';
-document.getElementById('content').innerHTML = localStorage['text'] || 'English - <br> Math - <br> Physics - <br> Latin - <br> Religion - <br> World Civ - <br> Art - <br> Gym - <br> Guidance - <br> Homeroom - ';
+document.getElementById('content').innerHTML = localStorage['text'] || 'Class 1 - <br> Class 2 - <br> Class 3 - <br> Class 4 - <br> Class 5 - <br> Class 6 - <br> Class  7 - <br> Class 8 - <br> Class 9 - <br> Class 10 - <br> Class 11 <br> Class 12 <br> Homeroom - ';
 
 
 setInterval(function() { 
